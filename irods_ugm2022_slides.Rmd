@@ -37,7 +37,7 @@ knitr::opts_chunk$set(echo = FALSE)
  - Software and computer systems
  - Multifaceted and large data streams
  
-*A 2019 study of my own: atomic absorption spectroscopy, atomic emission spectroscopy, mass spectrometry, scanning electron microscopy, spectrophotometry, energy-dispersive X-ray spectroscopy, elemental analyser, and high-sensitive balance*
+*A 2020 study of my own: atomic absorption spectroscopy, atomic emission spectroscopy, mass spectrometry, scanning electron microscopy, spectrophotometry, energy-dispersive X-ray spectroscopy, elemental analyser, and high-sensitive balance*
 
 ## {data-background=figures/Miller-Urey-experiment.jpg}
 
@@ -58,8 +58,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Default commercial software (Cameca, Zeiss, Thermo Fisher)
 - Prevent tracking data from source to publication
-- Long term storage and accessibility throughout the data life-cycle 
-- Monitor output and troubleshooting is reduced to current analysis
+- Long-term storage and accessibility throughout the data life-cycle 
+- Monitoring and troubleshooting is reduced to current analysis
 
 </br>
 
@@ -103,8 +103,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Is more data better?
 
 - New innovations
-- More transparent science (proof of final published values)
 - Inclusive science
+- More transparent science (proof of final published values)
+
 
 <div class="centered">
   ![](https://imgs.xkcd.com/comics/data_trap.png)
@@ -118,7 +119,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 <div class="notes">
-  The "vendor lock-in" results in situations where we don't actually how we get to the values that we use in our research.
+  The "vendor lock-in" results in situations where we don't actually know how we get to the values that we use in our research.
   
 </div>
 
@@ -218,14 +219,24 @@ kableExtra::kable(sols, escape = FALSE ) |>  kableExtra::kable_classic_2()
 
 Integration with iRODS
 
-  - sub-system for automated ingest
-  - automated workflows
-  - better collaboration
+  - Sub-system for automated ingest
+  - Automated workflows
+  - Better collaboration
   
 Accessibility
 
   - Interfaces for R and Python (standalone usage)
-  
+
+<div class="centered"> 
+![](figures/usb-stick.jpg){width=30%}
+
+
+
+<div style="text-align:center">
+ <font size="2.5">
+    Evan-Amos, 2011. A SanDisk Cruzer USB drive from 2011, with 4 GB of storage capacity <a href="https://en.wikipedia.org/wiki/USB_flash_drive#/media/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg">Wikipedia</a>
+ </font>
+</div>
 ## Implementation
 
 <div style="float: left; width: 10%;">
@@ -247,7 +258,7 @@ Accessibility
 
 **auxiliary**
 
-- Updating *irods_client_library_r_cpp* to work with iRODS from R
+- Updating *rirods* (*irods/irods_client_library_r_cpp*) to work with iRODS from R
 - Restrictive and complex system requirements not ideal for R and C++ integration
 
 
@@ -262,7 +273,7 @@ Accessibility
 2. Data formats from defunct software and vendors can be more conveniently analysed and/or archived
 3. The integration of (meta)data from different sources can aid online monitoring of lab performance
 
-## Long-term goal
+## Long-term goals
 
 The integrated lab will foster:
 
@@ -274,10 +285,12 @@ Stimulate a push in the industry of lab equipment towards open sourced software 
 
 ## Thanks
 
+iRODS consortium
+
 - Johan Renaudie (MfN Berlin)
 - Terrell Russell (iRODS)
 
-## FAIRelabs
+## FAIReLABS
 
 **Help us!**
 https://fairelabs.github.io/webpage/
