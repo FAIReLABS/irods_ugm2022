@@ -42,7 +42,7 @@ jobs:
 
       - name: Build presentation
         shell: Rscript {0}
-        run: rmarkdown::render("irods_ugm2022_slides.Rmd", output_file = "index.html", output_dir = "docs")
+        run: rmarkdown::render("irods_ugm2022_slides.Rmd", output_file = "index.html")
 
       - name: Deploy to GitHub pages 🚀
         if: github.event_name != 'pull_request'
