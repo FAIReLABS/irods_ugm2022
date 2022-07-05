@@ -262,15 +262,6 @@ Accessibility
 
 ## Roadmap {data-background=figures/roadmap.png data-background-size=cover}
 
-
-## Short-term goals
-
-**Address the vendor lock-in of lab-data with panacea** 
-
-1. New software updates of the vendor-supplied software that impact the output format can be more easily accommodated
-2. Data formats from defunct software and vendors can be more conveniently analysed and/or archived
-3. The integration of (meta)data from different sources can aid online monitoring of lab performance
-
 ## Long-term goals
 
 The integrated lab will foster:
@@ -280,13 +271,6 @@ The integrated lab will foster:
   - inclusive science
 
 Stimulate a push in the industry of lab equipment towards open sourced software solutions
-
-## Thanks
-
-iRODS consortium
-
-- Johan Renaudie (MfN Berlin)
-- Terrell Russell (iRODS)
 
 ## FAIReLABS
 
