@@ -44,11 +44,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Taking command of lab-data {.build}
 
 <div style="float: left; width: 20%;">
-![](/home/nicola/Documents/work/templates/logo/thermo_fisher.png){width=100%}
+![](templates/logo/thermo_fisher.png){width=100%}
 </div>
 
 <div style="float: right; width: 20%;">
-![](/home/nicola/Documents/work/templates/logo/cameca.png){width=100%}
+![](templates/logo/cameca.png){width=100%}
 </div>
 
 </br>
@@ -238,11 +238,11 @@ Accessibility
 ## Implementation
 
 <div style="float: left; width: 10%;">
-![](/home/nicola/Documents/work/templates/logo/Rlogo.jpeg){width=100%}
+![](templates/logo/Rlogo.jpeg){width=100%}
 </div>
 
 <div style="float: right; width: 10%;">
-![](/home/nicola/Documents/work/templates/logo/python.png){width=100%}
+![](templates/logo/python.png){width=100%}
 </div>
 
 </br>
