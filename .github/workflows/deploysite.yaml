@@ -34,9 +34,9 @@ jobs:
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore()
 
-      - name: Build site
+      - name: Build presentation
         shell: Rscript {0}
-        run: rmarkdown::render_site(encoding = 'UTF-8')
+        run: rmarkdown::render("irods_ugm2022_slides.Rmd")
 
       - name: Deploy to GitHub pages 🚀
         if: github.event_name != 'pull_request'
