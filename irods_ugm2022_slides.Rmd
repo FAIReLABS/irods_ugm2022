@@ -8,8 +8,8 @@ author: |
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   ioslides_presentation:
-    css: ~/Documents/work/templates/html/fairelabs.css
-    logo: ~/Documents/work/templates/logo/UUlogo.png
+    css: templates/css/fairelabs.css
+    logo: templates/logo/UUlogo.png
     widescreen: TRUE
     # smaller: TRUE 
     incremental: FALSE
