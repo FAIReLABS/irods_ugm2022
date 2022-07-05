@@ -25,7 +25,7 @@ slides > slide:not(.nobackground):before {
 
 
 slides > slide:not(.nobackground) {
-  background: url("/home/nicola/Documents/work/templates/images/fairelabs/integratedlabsolutions.jpg") !important;
+  background: url("integratedlabsolutions.jpg") !important;
   background-size: cover !important;
   background-position: center !important;
 }

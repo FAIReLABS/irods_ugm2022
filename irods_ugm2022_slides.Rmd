@@ -11,9 +11,7 @@ output:
     css: templates/css/fairelabs.css
     logo: templates/logo/UUlogo.png
     widescreen: TRUE
-    # smaller: TRUE 
     incremental: FALSE
-    # font_adjustement: -2
 ---
 
 ```{r setup, include=FALSE}
