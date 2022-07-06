@@ -144,7 +144,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ## The integrated lab
 
 - Data collecting and harmonization
-  - Parsing of unstructured data
+  - Parsing of unstructured (meta)data
   - Data normalization (SQL-like)
 <font color="lightgrey">  
 - Modular processing, analysis, and diagnostics suite
