@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
  </font>
 </div>
   
-## Modern lab requirements {.build}
+## Modern lab requirements 
 
  - High throughput of samples
  - Multiple parameters
@@ -41,7 +41,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## {data-background=figures/EVO-Helios_Pano2.jpg}
 
-## Taking command of lab-data {.build}
+## Taking command of lab-data 
 
 <div style="float: left; width: 20%;">
 ![](templates/logo/thermo_fisher.png){width=100%}
@@ -56,7 +56,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Default commercial software (Cameca, Zeiss, Thermo Fisher)
 - Prevent tracking data from source to publication
-- Long-term storage and accessibility throughout the data life-cycle 
+- Fragmented storage 
 - Monitoring and troubleshooting is reduced to current analysis
 
 </br>
@@ -155,7 +155,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 </font>
   
-## Data collecting and harmonization {.build}
+## Data collecting and harmonization 
 
 **Custom solutions**
 
@@ -200,19 +200,6 @@ The last two solutions would be preceded by a step entailing text normalization 
 </div>
 
 
-## Provisional solutions
-
-</br>
-
-```{r solutions, echo=FALSE}
-sols <- tibble::tibble(
-  Solutions = c("\\#1", "\\#3", "\\#3"),
-  `Human-action` = c("high", "medium", "low"),
-  Risk = c("low", "medium", "high")
-) 
-kableExtra::kable(sols, escape = FALSE ) |>  kableExtra::kable_classic_2() 
-```
-
 ## iRODS and user accesibility
 
 Integration with iRODS
@@ -235,6 +222,7 @@ Accessibility
     Evan-Amos, 2011. A SanDisk Cruzer USB drive from 2011, with 4 GB of storage capacity <a href="https://en.wikipedia.org/wiki/USB_flash_drive#/media/File:SanDisk-Cruzer-USB-4GB-ThumbDrive.jpg">Wikipedia</a>
  </font>
 </div>
+
 ## Implementation
 
 <div style="float: left; width: 10%;">
