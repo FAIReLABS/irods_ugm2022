@@ -183,7 +183,7 @@ Text data (encoded or decoded)
 knitr::include_graphics("figures/excerpt.png")
 ```
 
-## Provisional solutions
+## Proposed solutions
 
 Three possible solutions, which require varying degrees of human intervention:
 
